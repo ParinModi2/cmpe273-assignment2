@@ -44,6 +44,4 @@ public interface BookRepositoryInterface {
      *            an ISBN of the book to be deleted
      */
     void delete(Long isbn);
-
-	void addNewBook(Book book);
 }
